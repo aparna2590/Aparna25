@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T12:20:43 IST" name="SuiteFacebook" finished-at="2022-09-30T12:21:03 IST" duration-ms="19770">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T12:20:43 IST" name="ChromeTest" finished-at="2022-09-30T12:20:57 IST" duration-ms="13803">
+      <class name="testPackage.TestNG_Facebook_Messenger">
+        <test-method is-config="true" signature="launch_Browser(java.lang.String)[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:43 IST" name="launch_Browser" finished-at="2022-09-30T12:20:47 IST" duration-ms="3822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method is-config="true" signature="createPomObjects()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:47 IST" name="createPomObjects" finished-at="2022-09-30T12:20:47 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObjects -->
+        <test-method is-config="true" signature="open_Facebook()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:47 IST" name="open_Facebook" finished-at="2022-09-30T12:20:50 IST" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Facebook -->
+        <test-method signature="removeObjects()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:50 IST" name="removeObjects" finished-at="2022-09-30T12:20:50 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+        <test-method is-config="true" signature="open_Facebook()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:50 IST" name="open_Facebook" finished-at="2022-09-30T12:20:57 IST" duration-ms="7276" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null
+at testPackage.TestNG_Facebook_Messenger.open_Facebook(TestNG_Facebook_Messenger.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Facebook -->
+        <test-method signature="verify_Rooms_page()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:57 IST" name="verify_Rooms_page" finished-at="2022-09-30T12:20:57 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null
+at testPackage.TestNG_Facebook_Messenger.open_Facebook(TestNG_Facebook_Messenger.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Rooms_page -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:57 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664520657458" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="removeObjects()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@4f18837a]" started-at="2022-09-30T12:20:57 IST" name="removeObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664520657458" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+      </class> <!-- testPackage.TestNG_Facebook_Messenger -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-09-30T12:20:57 IST" name="EdgeTest" finished-at="2022-09-30T12:21:03 IST" duration-ms="5878">
+      <class name="testPackage.TestNG_Facebook_Messenger">
+        <test-method is-config="true" signature="launch_Browser(java.lang.String)[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:20:57 IST" name="launch_Browser" finished-at="2022-09-30T12:20:59 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method is-config="true" signature="createPomObjects()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:20:59 IST" name="createPomObjects" finished-at="2022-09-30T12:20:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObjects -->
+        <test-method is-config="true" signature="open_Facebook()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:20:59 IST" name="open_Facebook" finished-at="2022-09-30T12:21:02 IST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Facebook -->
+        <test-method signature="removeObjects()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:21:02 IST" name="removeObjects" finished-at="2022-09-30T12:21:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+        <test-method is-config="true" signature="open_Facebook()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:21:02 IST" name="open_Facebook" finished-at="2022-09-30T12:21:03 IST" duration-ms="1288" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null
+at testPackage.TestNG_Facebook_Messenger.open_Facebook(TestNG_Facebook_Messenger.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Facebook -->
+        <test-method signature="verify_Rooms_page()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:21:03 IST" name="verify_Rooms_page" finished-at="2022-09-30T12:21:03 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "faceBookPages.LoginPage.enterUser(String)" because "this.loginPage" is null
+at testPackage.TestNG_Facebook_Messenger.open_Facebook(TestNG_Facebook_Messenger.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Rooms_page -->
+        <test-method is-config="true" signature="removeObjects()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:21:03 IST" name="removeObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664520663420" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPackage.TestNG_Facebook_Messenger@5b8dfcc1]" started-at="2022-09-30T12:21:03 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1664520663428" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testPackage.TestNG_Facebook_Messenger -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- SuiteFacebook -->
+</testng-results>
